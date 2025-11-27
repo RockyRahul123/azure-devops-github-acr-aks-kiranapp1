@@ -16,6 +16,10 @@ pr:
       - main
 
 
+pool:
+  name: Default  # or your custom agent pool
+
+
 resources:
 - repo: self
 
