@@ -9,6 +9,13 @@ trigger:
       - main
 
 
+# Optional: run on PRs
+pr:
+  branches:
+    include:
+      - main
+
+
 resources:
 - repo: self
 
