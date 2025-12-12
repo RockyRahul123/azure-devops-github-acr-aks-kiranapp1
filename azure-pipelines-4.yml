@@ -28,7 +28,7 @@ stages:
         Dockerfile: '**/Dockerfile'
         tags: |
           $(tag)
-          $(Build.SourceVesion)
+          $(Build.SourceVersion)
           
     # Task-2: Copy kube-manifest files to Build Artifact Directory
     - task: CopyFiles@2
